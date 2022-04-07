@@ -1,6 +1,7 @@
 # RP-Projects
 
 Commit dan Mulai Project COK
+-Ubah .env dbname = rp_project lalu php artisan migrate.
 
 ![RP Dasboard](https://user-images.githubusercontent.com/77053720/162231761-bb65631d-644b-4d8a-b5a5-e2d6ecb94fc1.png)
 
