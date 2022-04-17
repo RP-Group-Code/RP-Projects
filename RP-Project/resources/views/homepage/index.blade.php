@@ -1,5 +1,5 @@
 @extends('layout.index')
-@section('content')
+{{-- @section('content') --}}
 
     <section class="content-header ml-5">
         <div class="row mt-2 ml-2 mr-4">
@@ -75,4 +75,4 @@
             </div>
         </div>
     </div>
-@endsection
+{{-- @endsection --}}

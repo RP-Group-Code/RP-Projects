@@ -3,10 +3,10 @@
 namespace App\Http\Middleware;
 
 use Closure;
-use Illuminate\Contracts\Session\Session;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
-class authcheck
+class authCheck
 {
     /**
      * Handle an incoming request.
@@ -21,7 +21,7 @@ class authcheck
             return $next($request);
         }else
         {
-            return redirect('');
+            return redirect('/login');
         }
     }
 }

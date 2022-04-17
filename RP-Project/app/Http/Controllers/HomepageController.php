@@ -20,8 +20,8 @@ class HomepageController extends Controller
 
     public function katalog()
     {
-        $homepage['katalog'] = HomePage::all();
-        return view('homepage.katalog', $homepage);
+        // $homepage['katalog'] = HomePage::all();
+        return view('homepage.katalog');
     }
 
     /**

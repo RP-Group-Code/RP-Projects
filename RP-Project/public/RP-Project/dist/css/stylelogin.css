@@ -10,7 +10,13 @@ body,
 input {
   font-family: "Poppins", sans-serif;
 }
-
+.logoimg img{
+  cursor: pointer;
+  width: 20rem;
+}
+.logoimg .title{
+  text-align: center;
+}
 .container {
   position: relative;
   width: 100%;
@@ -29,7 +35,7 @@ input {
 
 .signin-signup {
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%, -50%);
   left: 75%;
   width: 50%;
@@ -82,7 +88,7 @@ form.sign-in-form {
 .input-field i {
   text-align: center;
   line-height: 55px;
-  color: #acacac;
+  color: #6c63ff;
   transition: 0.5s;
   font-size: 1.1rem;
 }
@@ -134,7 +140,7 @@ form.sign-in-form {
 
 .btn {
   width: 150px;
-  background-color: #5995fd;
+  background-color: #292c3d;
   border: none;
   outline: none;
   height: 49px;
@@ -145,10 +151,12 @@ form.sign-in-form {
   margin: 10px 0;
   cursor: pointer;
   transition: 0.5s;
+  margin-top: 4rem;
+
 }
 
 .btn:hover {
-  background-color: #4d84e2;
+  background-color: #6c63ff;
 }
 .panels-container {
   position: absolute;
@@ -168,7 +176,7 @@ form.sign-in-form {
   top: -10%;
   right: 48%;
   transform: translateY(-50%);
-  background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+  background-image: linear-gradient(-45deg, #1c1d25 0%, #3a3f64  100%);
   transition: 1.8s ease-in-out;
   border-radius: 50%;
   z-index: 6;

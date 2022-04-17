@@ -64,7 +64,7 @@ html {
 
 
 #header__nav nav{
-    margin-top: 1rem;
+    margin-top: 0.3rem;
 }
 
 .tombol-white:hover {
@@ -78,11 +78,53 @@ html {
     border: 0.1px solid;
     color: black;
     border-radius: 0.7rem;
-    font-size: 16.3px;
+    font-size: 22.3px;
 }
 
 .navdrop {
     padding: 0 1.2rem 0 0;
+}
+
+#dd1{
+    width: 1770px;
+    left: -18.7rem;
+    padding: 20px 100px;
+    border-radius: 0 0px 30px 30px !important;
+}
+.dropdown-menu li{
+    color: white !important;
+}
+.dropdown-item-text , .dropdown-item{
+    color: white !important;
+    opacity: 1 !important;
+}
+
+.dropdown-menu{
+    background-color: #292c3d;
+    opacity: 1;
+}
+
+#dd2{
+    width: 1770px;
+    left: -26.5rem;
+    padding: 20px 100px;
+    border-radius: 0 0px 30px 30px !important;
+}
+#dd3{
+    width: 1770px;
+    left: -32.9rem;
+    padding: 20px 100px;
+    border-radius: 0 0px 30px 30px !important;
+}
+#dd4{
+    width: 1770px;
+    left: -39.4rem;
+    border-radius: 0 0px 30px 30px !important;
+    padding: 20px 100px;
+}
+
+.dropdown-item:hover{
+    background-color: transparent !important;
 }
 
 .navdrop a:hover {
@@ -107,16 +149,22 @@ html {
 }
 
 .header__nav{
-    width: 95%;
+    align-items: center;
+    width: 94%;
     height: 55px;
     position:fixed;
     z-index: 12;
     border-radius: 20px;
     backdrop-filter: blur(7px);
-    color: rgb(15, 15, 15);
+    background-color: #292c3d !important;
+    opacity: 0.9;
+    /* color: rgb(255, 255, 255) !important; */
     justify-content: center;
-    background-color: transparent !important;
+    /* background-color: transparent !important; */
     backdrop-filter: blur(22px) !important;
+}
+.header__nav li{
+    color: rgb(255, 255, 255) !important;
 }
 
 .card__header{
@@ -234,7 +282,7 @@ html {
 }
 
 .sample__content p{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--color-whtie);
     font-weight: 700;
     text-align: center;
